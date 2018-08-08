@@ -10,7 +10,7 @@ var _slot = 0;
 var _delimiterPosition = 0;
 var _arraySample = [];
 var _delimiterCount = string_count(_substring,_string)+1;
-
+var _off = false; //argument[2]
 _string += _substring;
 #endregion
 
@@ -18,7 +18,7 @@ _string += _substring;
 for(var _i = 0; _i < _delimiterCount; _i++){
 	_delimiterPosition = string_pos(_substring, _string) +	(_substringLength-1);
 	var _copy = string_copy(_string,1,_delimiterPosition-_substringLength);
-	if((_copy != "") || (argument[2] = false)){
+	if((_copy != "") || (_off = false)){
 		_arraySample[_i - _slot] = _copy;
 	}else{
 		_slot ++;	

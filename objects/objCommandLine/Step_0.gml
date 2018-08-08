@@ -2,10 +2,11 @@
 
 #region execute commands
 if(keyboard_check_released(vk_enter)){
+	historyIndex = lineIndex;
 	if(userText != ""){
 		scrExecuteCommand(userText);
+		ds_list_add(bashHistory,userText);
 	}
-	
 	keyboard_string = "";
 	userText = "";
 	
@@ -24,3 +25,9 @@ lines[| lineIndex] = text;
 #endregion
 
 maxlineLength = floor(room_width/(font_get_size(fntTerminal)*(2/3)));
+
+#region scroll
+if(lineIndex*padding > (room_height-padding)-y){
+	y = -(allLineCount*padding-room_height);
+}
+#endregion

@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "32581177-4d54-49e3-a08e-31e34478e01c",
+            "Value": {
+                "id": "9a532d8b-cd9e-4caf-83b6-cccce6861f43",
+                "resourcePath": "scripts\\cmd_exit\\cmd_exit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "348c472a-653d-49c4-a63f-001eecac2657",
             "Value": {
                 "id": "72e23d0a-d2bb-4d5c-9df6-e1204d7524c3",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "93db0af0-8eae-475b-b2dd-14af740e6f08",
+            "Value": {
+                "id": "50dc25ab-bf3f-428a-b0e4-d3330277ae9a",
+                "resourcePath": "scripts\\cmd_repeat\\cmd_repeat.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9d11839b-5879-4784-94e2-01a901e51762",
             "Value": {
                 "id": "b3ff9c58-2d76-4017-b156-509e6bfe47ee",
@@ -188,6 +204,14 @@
                 "id": "1b80fae9-3034-4956-bb02-40944827fe52",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d039c18b-ff6a-4746-9671-fafffa3996b8",
+            "Value": {
+                "id": "b54930bb-2a9e-4989-be2d-0c0dbeb02bc7",
+                "resourcePath": "scripts\\cmd_date\\cmd_date.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -251,7 +275,10 @@
         "2130ac33-a69c-4eab-b70a-f7f5702ed024",
         "9df48df7-1e06-45a9-870f-1338afb148a0",
         "b4f799ad-2ccf-4603-aa97-ad0b9aec0fd8",
-        "855b8875-44c3-46cf-83d4-13eeffcfbd55"
+        "855b8875-44c3-46cf-83d4-13eeffcfbd55",
+        "32581177-4d54-49e3-a08e-31e34478e01c",
+        "93db0af0-8eae-475b-b2dd-14af740e6f08",
+        "d039c18b-ff6a-4746-9671-fafffa3996b8"
     ],
     "tutorial": ""
 }

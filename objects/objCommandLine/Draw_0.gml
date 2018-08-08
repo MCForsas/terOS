@@ -18,4 +18,5 @@ for(var _i = 0; _i < ds_list_size(lines); _i++){
 		_lineCount++;
 	}
 }
+allLineCount = _lineCount;
 #endregion

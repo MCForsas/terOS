@@ -10,6 +10,9 @@ font = fntTerminal;
 lines = ds_list_create();
 ds_list_add(lines,text);
 lineIndex = 0;
+historyIndex = 1;
+bashHistory = ds_list_create();
+allLineCount = 0;
 #endregion
 
 #region get max number of character in one line
