@@ -1,7 +1,6 @@
-///@desc scrPushString(string)
-///@arg string
-
-//adds line of text to terminal
+/// @function scrPushString(string)
+/// @desc adds line of text to terminal
+/// @param string
 
 #region vars
 var _string = argument[0];

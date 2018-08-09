@@ -1,6 +1,7 @@
-///@description scrSplitString(substr,str)
-///@var substr
-///@var str
+/// @function scrSplitString(substr,str)
+/// @description Split string into an array, delimited by substrings
+/// @arg substr
+/// @arg string
 
 #region variables
 var _substring = argument[0];
@@ -25,6 +26,9 @@ for(var _i = 0; _i < _delimiterCount; _i++){
 	}
 	_string = string_delete(_string, 1, _delimiterPosition);
 }
-
-return _arraySample;
+if(_delimiterCount == 0){
+	return [argument[0]];
+}else{
+	return _arraySample;
+}
 #endregion

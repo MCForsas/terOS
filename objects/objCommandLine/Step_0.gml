@@ -27,7 +27,7 @@ lines[| lineIndex] = text;
 maxlineLength = floor(room_width/(font_get_size(fntTerminal)*(2/3)));
 
 #region scroll
-if(lineIndex*padding > (room_height-padding)-y){
+if(allLineCount*padding > (room_height-padding)-y){
 	y = -(allLineCount*padding-room_height);
 }
 #endregion
